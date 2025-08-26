@@ -1,0 +1,25 @@
+{
+  "name": "CRWHooks",
+  "version": "1.0.0",
+  "author": "codedbyjake",
+  "url": "",
+  "description": "Provides custom hooks for the Consumer Rights Wiki.",
+  "license-name": "MIT",
+  "type": "extension",
+
+  "manifest_version": 2,
+
+  "AutoloadNamespaces": {
+    "MediaWiki\\Extension\\CRWHooks\\": "includes/"
+  },
+
+  "Hooks": {
+    "LocalUserCreated": "MediaWiki\\Extension\\CRWHooks\\Hooks::onLocalUserCreated"
+  },
+
+  "MessagesDirs": {
+    "CRWHooks": [
+      "i18n"
+    ]
+  }
+}
