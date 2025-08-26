@@ -7,7 +7,7 @@ use MediaWiki\User\User;
 class Hooks {
 
     // Webhook for registrations only
-    private const REG_WEBHOOK = '{{Webhooks}}';
+    private const REG_WEBHOOK = '{{Discord Webhook}}';
 
     /**
      * Send registration notices to the registrations-only webhook.
@@ -48,4 +48,5 @@ class Hooks {
     curl_exec($ch);
     curl_close($ch);
 	}
+
 }
