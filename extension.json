@@ -2,7 +2,7 @@
   "name": "CRWHooks",
   "version": "1.0.0",
   "author": "codedbyjake",
-  "url": "",
+  "url": "https://github.com/codedbyjake/CRWHooks",
   "description": "Provides custom hooks for the Consumer Rights Wiki.",
   "license-name": "MIT",
   "type": "extension",
@@ -22,4 +22,5 @@
       "i18n"
     ]
   }
+
 }
